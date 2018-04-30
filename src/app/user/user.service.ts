@@ -10,7 +10,6 @@ export class UserService {
   constructor(private http: HttpClient) { }
 
   public getUsers(): Observable<UserModel[]> {
-
     return this.http.get<UserModel[]>("http://localhost:8080/getUsers");
   }
 }
