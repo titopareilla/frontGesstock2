@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes} from '@angular/router'
 import { NavbarComponent } from './navbar/navbar.component';
+import { ProductsListComponent } from './products-list/products-list.component';
 
 /*
 * Módulo que enruta las aplicaciones,
@@ -16,9 +17,10 @@ const routes: Routes = [
     { path: 'appComponent', component: AppComponent},
     { path: 'userComponent', component: UserComponent},
     { path: 'createUserComponent', component: CreateUserComponent},
-    { path: 'loginComponent', component: LoginComponent},
-    { path: 'navbarComponent', component: NavbarComponent},
-    { path: 'index', component: IndexComponent}
+    { path: 'login', component: LoginComponent},
+    { path: 'navbar', component: NavbarComponent},
+    { path: 'index', component: IndexComponent},
+    { path: 'products-list', component: ProductsListComponent}
 ];
 @NgModule({
     imports: [RouterModule.forRoot(routes)],

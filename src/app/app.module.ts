@@ -9,7 +9,8 @@ import { CreateUserComponent } from './create-user/create-user.component';
 import { FormsModule} from '@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { IndexComponent } from './index/index.component'
+import { IndexComponent } from './index/index.component';
+import { ProductsListComponent } from './products-list/products-list.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { IndexComponent } from './index/index.component'
     CreateUserComponent,
     LoginComponent,
     NavbarComponent,
-    IndexComponent
+    IndexComponent,
+    ProductsListComponent
   ],
   imports: [
     BrowserModule,
