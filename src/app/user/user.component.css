@@ -5,3 +5,7 @@
 .table{
     width: 80%;
 }
+
+.editIcon{
+    cursor: pointer;
+}
