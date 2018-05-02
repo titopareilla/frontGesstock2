@@ -6,6 +6,10 @@
     width: 80%;
 }
 
+.cabecera{
+    background-color: rgb(209, 209, 209);
+}
+
 .editIcon{
     cursor: pointer;
 }

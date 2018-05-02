@@ -1,14 +1,16 @@
 <app-navbar></app-navbar>
-<h1>REGISTERED USERS</h1>
 <div class="clear"></div>
 <table class="table mx-auto">
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Surname</th>
-      <th>Phone</th>
-      <th>Adress</th>
-      <th>Update/Delete</th>
+      <h3 class="mx-auto">Usuarios</h3>
+    </tr>
+    <tr class="cabecera">
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Teléfono</th>
+      <th>Dirección</th>
+      <th>Editar/Borrar</th>
     </tr>
   </thead>
   <tbody>
@@ -18,10 +20,9 @@
       <td>{{item.phone}}</td>
       <td>{{item.address}}</td>
       <td>
-        <img src="../../assets/edit.png" class="editIcon" (click)="edit(item)">
-        <img src="../../assets/empty_bin.png" class="editIcon" (click)="delete(item)">
+        <img src="../../assets/misc/edit.png" style="width: 12%"  class="editIcon" (click)="edit(item)">
+        <img src="../../assets/misc/empty_bin.png" style="width: 15%" class="editIcon" (click)="delete(item)">
       </td>
-
     </tr>
   </tbody>
 </table>
