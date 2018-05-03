@@ -1,3 +1,5 @@
+import { UserProfileComponent } from './user-profile/user-profile.component';
+import { CreateProductComponent } from './create-product/create-product.component';
 import { IndexComponent } from './index/index.component';
 import { LoginComponent } from './login/login.component';
 import { CreateUserComponent } from './create-user/create-user.component';
@@ -20,7 +22,9 @@ const routes: Routes = [
     { path: 'login', component: LoginComponent},
     { path: 'navbar', component: NavbarComponent},
     { path: 'index', component: IndexComponent},
-    { path: 'products-list', component: ProductsListComponent}
+    { path: 'products-list', component: ProductsListComponent},
+    { path: 'create-product', component: CreateProductComponent},
+    { path: 'user-profile', component: UserProfileComponent}
 ];
 @NgModule({
     imports: [RouterModule.forRoot(routes)],

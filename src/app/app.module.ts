@@ -10,7 +10,9 @@ import { FormsModule} from '@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { IndexComponent } from './index/index.component';
-import { ProductsListComponent } from './products-list/products-list.component'
+import { ProductsListComponent } from './products-list/products-list.component';
+import { CreateProductComponent } from './create-product/create-product.component';
+import { UserProfileComponent } from './user-profile/user-profile.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ProductsListComponent } from './products-list/products-list.component'
     LoginComponent,
     NavbarComponent,
     IndexComponent,
-    ProductsListComponent
+    ProductsListComponent,
+    CreateProductComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
